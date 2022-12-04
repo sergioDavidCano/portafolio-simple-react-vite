@@ -1,0 +1,21 @@
+.container-root {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+    color: rgb(151, 147, 147);
+    font-family: Teko,sans-serif;
+
+    &__main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        &__navbar {
+            width: 22%;
+        }
+
+        &__home {
+            width: 78%;
+        }
+    }
+}

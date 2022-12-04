@@ -2,6 +2,7 @@ import React from 'react';
 import './home.scss';
 import { Hero } from '../../components/hero/hero';
 import { Navbar } from '../../components/navbar/Navbar';
+import { Header } from '../../components/header/Header';
 
 export const Home = () => {
     return (
@@ -11,7 +12,8 @@ export const Home = () => {
                     <Navbar />
                 </div>
                 <div className='container-root__main__home'>
-                    <Hero />
+                    <Header/>
+                    {/* <Hero /> */}
                 </div>
             </div>
         </div>

@@ -14,6 +14,11 @@ export const Home = () => {
                 <div className='container-root__main__home'>
                     <Header/>
                     {/* <Hero /> */}
+                    <main>
+                        <div className='container-hero'>
+                            <Hero/>
+                        </div>
+                    </main>
                 </div>
             </div>
         </div>

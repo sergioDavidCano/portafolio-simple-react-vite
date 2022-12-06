@@ -15,8 +15,6 @@ export const Navbar = () => {
                     <hr/>
                     <li>TECNOLOGÍAS Y METODOLOGÍAS</li>
                     <hr/>
-                    <li>PASATIEMPOS</li>
-                    <hr/>
                     <li>CONTACTO</li>
                 </ul>
             </div>

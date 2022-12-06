@@ -1,0 +1,84 @@
+.container-section {
+    margin-top: 20px;
+    border-bottom: 1px solid #605c4e80;
+    color: #fff;
+    height: auto;
+    margin: 0 15px 30px;
+    padding-bottom: 30px;
+
+    .container-hero {
+        display: flex;
+        width: 100%;
+
+        .container-info {
+            margin: 0;
+            width: 60%;
+
+            &__title {
+                font-size: 50px;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: .5rem;
+                font-weight: 400;
+                line-height: 1.2;
+            }
+
+            &__presentaction {
+                font-family: Montserrat, sans-serif;
+                font-size: 17px;
+                font-weight: 100;
+                max-width: auto;
+                padding: 15px;
+            }
+
+            &__personal {
+                font-family: Montserrat, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                height: auto;
+                list-style: none;
+                padding-left: 10px;
+
+                &__li {
+                    margin: 5px;
+
+                    &__span {
+                        color: #cba982;
+                    }
+                }
+            }
+
+            .buttom-view-curriculum {
+                background-color: #ad8b63;
+                border: 2px solid #cba990;
+                box-shadow: 2px 3px rgb(70 68 68 / 37%);
+                display: inline-block;
+                font-family: Open Sans,sans-serif;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 45px;
+                margin-top: 20px;
+                padding: 0 35px;
+                position: relative;
+                text-transform: uppercase;
+                transition: width 2s;
+                transition-timing-function: cubic-bezier(.1,.7,1,.1);
+                z-index: 1;
+            }
+        }
+
+        .container-photo {
+            width: 40%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            &__img {
+                border-radius: 100px;
+                box-shadow: 5px 2px rgb(70 68 68 / 37%);
+                height: 350px;
+                width: 300px;
+            }
+        }
+    }
+}

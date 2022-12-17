@@ -1,0 +1,26 @@
+.seccion-studies-experiencia {
+    border-bottom: 1px solid #605c4e80;
+    color: #fff;
+    height: auto;
+    margin: 0 15px 30px;
+    padding-bottom: 30px;
+
+    .container-section {
+        display: flex;
+        width: 100%;
+
+        .container-studies {
+            width: 50%;
+            margin: 10px 15px 10px 10px;
+
+            &__title {
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+
+        .container-experience {
+            width: 50%;
+        }
+    }
+}

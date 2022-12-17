@@ -1,0 +1,31 @@
+.section-technologies {
+    border-bottom: 1px solid #605c4e80;
+    color: #fff;
+    height: auto;
+    margin: 0 15px 30px;
+    padding-bottom: 30px;
+
+    .container-technologies {
+        border-bottom: 1px solid #605c4e80;
+        color: #fff;
+        height: auto;
+        margin: 0 15px 30px;
+        padding-bottom: 30px;
+
+        &__title {
+            margin-top: 0;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            // color: var(--bs-heading-color);
+        }
+
+        .container-technologies-info {
+            display: flex;
+
+            &__div {
+                width: 50%;
+            }
+        }
+    }
+}

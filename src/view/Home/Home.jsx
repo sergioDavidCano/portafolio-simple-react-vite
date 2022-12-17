@@ -3,6 +3,8 @@ import './home.scss';
 import { Hero } from '../../components/hero/hero';
 import { Navbar } from '../../components/navbar/Navbar';
 import { Header } from '../../components/header/Header';
+import { StudiesExperiencia } from '../../components/studiesExperience/StudiesExperiencia';
+import { Technologies } from '../../components/Technologies/Technologies';
 
 export const Home = () => {
     return (
@@ -12,11 +14,12 @@ export const Home = () => {
                     <Navbar />
                 </div>
                 <div className='container-root__main__home'>
-                    <Header/>
-                    {/* <Hero /> */}
+                    <Header />
                     <main>
-                        <div className='container-hero'>
-                            <Hero/>
+                        <div className='container-body'>
+                            <Hero />
+                            <StudiesExperiencia />
+                            <Technologies/>
                         </div>
                     </main>
                 </div>

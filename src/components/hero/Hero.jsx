@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <section className="container-section">
+    <section id='hero' className="container-section">
       <div className="container-hero">
         <div className="container-info">
           <h2 className="container-info__title">Permítame presentarme</h2>
